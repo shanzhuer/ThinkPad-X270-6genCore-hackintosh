@@ -2,13 +2,21 @@ Thinkpad X270 EFI for 10.13/10.14.x
 
 
 |Motherboard|Lenovo ThinkPad X270|
+
 |OS|macOS Mojave 18A389/macOS High Sierra 10.13.6 17G2208|
+
 |CPU|Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz|
+
 |MEM|8 GB  2133MHz|
+
 |DISK|TOSHIBA NVMe 128g SSD|
+
 |Graphics|intel HD Graphics 520 |
+
 |Monitor|1366x768 (12.5 inch)|
+
 |Audio|ALC298 (layout-id:29 not working well)|
+
 |WLAN|Bcm94352z|
 
 ## DMG
