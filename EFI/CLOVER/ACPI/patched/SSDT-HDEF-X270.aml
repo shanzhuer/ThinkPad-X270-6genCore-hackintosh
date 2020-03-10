@@ -1,0 +1,65 @@
+DefinitionBlock ("SSDT-HDEF-X260.aml", "SSDT", 2, "T460", "HDEF", 0x00000000)
+{
+    If (Zero)
+    {
+        \_SB.PCI0.HDEF
+        Alias (, ACPI Warning: Found bad character(s) in name, repaired: [*H**]
+ (20100528/utmisc-899)
+*H**)
+    }
+    _SB.PCI0.HDEF._DSM
+    If (LNot (Arg2))
+    {
+        Return (Buffer (One)
+        {
+            0x03
+        })
+    }
+    Return (Package (0x14)
+    {
+        "AAPL,slot-name", 
+        Buffer (0x09)
+        {
+            "Built in"
+        }, 
+        "layout-id", 
+        Buffer (0x04)
+        {
+            0x1D, 0x00, 0x00, 0x00
+        }, 
+        "codec-id", 
+        Buffer (0x04)
+        {
+            0x98, 0x02, 0xEC, 0x10
+        }, 
+        "model", 
+        Buffer (0x18)
+        {
+            "Realtek ALC298 HD Audio"
+        }, 
+        "name", 
+        Buffer (0x0F)
+        {
+            "Realtek ALC298"
+        }, 
+        "device_type", 
+        Buffer (0x11)
+        {
+            "Audio Controller"
+        }, 
+        "built-in", 
+        Buffer (One)
+        {
+            0x00
+        }, 
+        "PinConfigurations", 
+        Buffer (Zero) {}, 
+        "hda-gfx", 
+        Buffer (0x0A)
+        {
+            "onboard-1"
+        }, 
+        "MaximumBootBeepVolume", 
+        0x2F
+    })
+}
