@@ -1,4 +1,4 @@
-Thinkpad X270 EFI for 10.13/10.14.x
+## Thinkpad X270 6genCore EFI for 10.13/10.14.x
 
 
 |Motherboard|Lenovo ThinkPad X270|
