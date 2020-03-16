@@ -27,7 +27,7 @@ DMG from ：[【daliansky】macOS Mojave 10.14(18A389) with Clover 4670 image](h
 2. Wlan：DW1560/DW1830 Working；
 3. Graphics：Intel HD Graphics 520 Working，Platform-id=0x19160002，Patch DVMT；Devices-Properties method；HDMI working；miniDP not tested；
 4. Bluetooth working；Sleep/Wake working, fixed led blink after wak, hotpatch(fixed@20200315)；
-5. Dual Battery working, Fan RPM working, hotpatch(fixed@20200315);
+5. Dual Battery working(if you dont have dual battery, just buy one^_^), Fan RPM working, hotpatch(fixed@20200315);
 6. Trackpad working；
 7. USB port => SSDT-UIAC.aml working；
 8. PCI not modified；
