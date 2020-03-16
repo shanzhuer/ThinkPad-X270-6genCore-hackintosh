@@ -291,50 +291,6 @@
 			<key>IOUserClientClass</key>
 			<string>FakeSMCKeyStoreUserClient</string>
 		</dict>
-		<key>Wired Keyboard 2007 ANSI Map</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleHIDKeyboard</string>
-			<key>DeviceUsagePairs</key>
-			<array>
-				<dict>
-					<key>DeviceUsage</key>
-					<integer>6</integer>
-					<key>DeviceUsagePage</key>
-					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>DeviceUsage</key>
-					<integer>7</integer>
-					<key>DeviceUsagePage</key>
-					<integer>1</integer>
-				</dict>
-			</array>
-			<key>FWCapsLockDelay</key>
-			<true/>
-			<key>FnFunctionUsageMap</key>
-			<string>0x0007003a,0xff010021,0x0007003b,0xff010020,0x0007003c,0xff010010,0x0007003f,0x000C00B4,0x00070040,0x000C00CD,0x00070041,0x000C00B3,0x00070043,0x000C00E2,0x00070044,0x000C00EA,0x00070045,0x000C00E9</string>
-			<key>FnKeyboardUsageMap</key>
-			<string>0x00070050,0x0007004a,0x00070052,0x0007004b,0x0007002a,0x0007004c,0x0007004f,0x0007004d,0x00070051,0x0007004e,0x00070028,0x00070058</string>
-			<key>FnModifierUsage</key>
-			<integer>3</integer>
-			<key>FnModifierUsagePage</key>
-			<integer>255</integer>
-			<key>HIDDefaultBehavior</key>
-			<string>Keyboard</string>
-			<key>IOClass</key>
-			<string>AppleHIDKeyboardEventDriver</string>
-			<key>IOProviderClass</key>
-			<string>IOHIDInterface</string>
-			<key>ProductID</key>
-			<integer>16450</integer>
-			<key>StandardType</key>
-			<integer>0</integer>
-			<key>VendorID</key>
-			<integer>1204</integer>
-			<key>alt_handler_id</key>
-			<integer>46</integer>
-		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2017 netkas. All rights reserved.</string>
