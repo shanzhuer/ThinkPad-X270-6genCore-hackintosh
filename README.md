@@ -33,6 +33,10 @@ DMG from ：[【daliansky】macOS Mojave 10.14(18A389) with Clover 4670 image](h
 8. PCI not modified；
 9. Brightness adjust working：`fn+F5`&`fn+F6`
 
+- 6-03-2022
+
+  - support intel 8265ngw wlan&bluttooth by using EFI-8265ngw
+
 - 3-15-2020
 
   - fix batt&fan&ptswak 
